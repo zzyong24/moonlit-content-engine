@@ -1,0 +1,5 @@
+interface:
+  display_name: "月明·内容引擎"
+  short_description: "编排月明品牌的一源多形内容生产、发布包与自动分发"
+  brand_color: "#39EC88"
+  default_prompt: "使用 $moonlit-content-engine 从选题开始生成月明品牌的公众号与多平台内容。"
