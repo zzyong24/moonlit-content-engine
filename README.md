@@ -80,3 +80,7 @@ npx skills add zzyong24/moonlit-content-engine
 - [公众号排版与草稿](https://github.com/zzyong24/moonlit-wechat-publisher) — 排好文章，再写入草稿箱
 - [X 短帖与线程](https://github.com/zzyong24/moonlit-x-short) — 一个洞察，或一条连续的论证
 - [小红书图文](https://github.com/zzyong24/moonlit-xiaohongshu) — 一张封面，配一段值得读的内容
+
+- [moonlit-douyin-cover-updater](https://github.com/zzyong24/moonlit-douyin-cover-updater)
+
+- [moonlit-douyin-transcribe](https://github.com/zzyong24/moonlit-douyin-transcribe)
