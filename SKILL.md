@@ -4,8 +4,8 @@ description: 月明水清深账号的内容生产与分发主编排入口。按�
 metadata:
   display_name: 月明·内容引擎
   icon: icon.svg
-  version: "0.11.0"
-  updated: "2026-10-08"
+  version: "0.12.0"
+  updated: "2026-10-14"
 ---
 
 # 🌙 moonlit-content-engine · 主编排入口
@@ -15,6 +15,12 @@ metadata:
 ## 内容判断的共同起点
 
 先按 [作者表达优先：信达雅](references/editorial-contract.md) 区分表达与研究。用户已提供观点或口述时，直接忠实组织、补充和润色，不自动开启论证或改判语义；以下选题判断流程仅在用户需要选题/研究/从零策划时调用。
+
+## 共用的品牌、创意与反馈（2026-10）
+
+- **品牌令牌**：所有形态的颜色、字体、字号、圆角、缓动和音效档位只取 [brand-tokens.md](references/brand-tokens.md)，各 Skill 不另定义色值。亮色 `paper` 用于封面/公众号/小红书/配图，深色 `night` 用于视频舞台。
+- **创意概念**：选题确认后、写稿前按 [creative-concept.md](references/creative-concept.md) 提 3 个不同类型的概念、选 1 个作为本期母意象，写入 content_brief 的 `creative_concept`，脚本、封面、视频、配图从它出发。
+- **反馈台账**：用户的审美与质量反馈写入 [feedback-ledger.md](references/feedback-ledger.md) 对应分区；每个 Skill 开工前读通用和本形态分区，交付时说明已自检哪些条目。
 
 进入选题或内容判断前，按当前工程激活列表解析依赖 `moonlit-business-copywriter`，读取其 `references/content-first-principles.md`；不可假定两个 Skill 的物理目录相邻。依赖缺失时报告缺口，不静默改用历史副本。先明确具体处境、关切及其依据、预期观众变化、材料支持、未知与分歧、帮助范围，再选表达与象限。获得感包含理解、区分、判断、尝试和感受；不强制痛点、纠错、确定结论或CTA。使用content_brief传递这些判断，经营目标不替代观众价值。
 

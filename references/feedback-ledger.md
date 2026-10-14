@@ -1,0 +1,29 @@
+# 用户审美与质量反馈台账（全形态共用，只增不删）
+
+用户每次说“不够好 / 这里还要加 / 不是这个感觉 / 偷懒了”，除了修当前作品，还要把它写成一条**可检查的规则**追加到对应形态分区，并在当前作品里排查同类问题。各 Skill 开工前读取“通用”和本形态分区；交付说明写“已按反馈台账 Gx / Vx … 自检”。
+
+工作区若提供 `maintenance/feedback-ledger.md` 或 `maintenance/quality-samples.json`，以工作区版本为准，本文件只保存可公开的通用规则；带个人原话、私人素材的条目只写进工作区。
+
+格式：`编号｜日期｜用户原话摘要｜规则（可检查）｜检查方法`
+
+## 通用（G）
+
+- G1｜2026-10｜Agent 偷工减料，要催很多遍才继续优化｜交付前跑完本形态的客观检查，至少自我打磨一轮；计划内的项不得无理由砍掉，不问“要不要再加”｜交付说明附检查报告、两轮对比、被砍项理由
+
+## 视频（V）
+
+- V1｜2026-10｜动效太少、图解是贴上去的｜按 `moonlit-talking-head-video/references/motion-grammar.md` 做词级揭示，跑 `check_motion_density.py`｜motion-report.json 通过
+
+## 封面（C）
+
+## 配图与版式（I）
+
+- I1｜2026-10｜同一期封面、配图、视频颜色不统一｜颜色、字体、字号只取 `brand-tokens.md`｜逐张核对色值来自令牌，同屏强调色 ≤ 1
+
+## 文字（W）
+
+- W1｜2026-10｜文字安全但平｜成稿前按 `moonlit-business-copywriter/references/writing-toolkit.md` 做一遍“加法”｜交付说明列出用了哪 2–3 招、改了哪几句
+
+## 选题与创意（T）
+
+- T1｜2026-10｜封面、脚本、画面各找各的，没有一个贯穿的画面概念｜写稿前按 `creative-concept.md` 定本期母意象｜content_brief 含 `creative_concept`
